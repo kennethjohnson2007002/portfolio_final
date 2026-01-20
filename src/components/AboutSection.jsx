@@ -12,33 +12,23 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Full Stack Engineer (AI & Blockchain Enthusiast)
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
+              With over 1.5 years of experience in web development, I specialize
               in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              applications using modern technologies that integrates AI and Blochcain Technologies
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 {" "}
                 Get In Touch
-              </a>
-
-              <a
-                href=""
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-              >
-                Download CV
               </a>
             </div>
           </div>
@@ -50,10 +40,9 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg">Full Stack Web Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    I architect high-performance, end-to-end applications by bridging responsive interfaces with scalable backends.
                   </p>
                 </div>
               </div>
@@ -79,10 +68,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Problem Solving</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    I leverage a strong foundation in Distributed Systems and DSA to engineer efficient algorithms.
                   </p>
                 </div>
               </div>
@@ -93,3 +81,4 @@ export const AboutSection = () => {
     </section>
   );
 };
+export default AboutSection;
